@@ -3654,6 +3654,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			.banner.full {
+				padding: 100px;
+			}
 
 			.banner > article .inner {
 				width: 90%;
