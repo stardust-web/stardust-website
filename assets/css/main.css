@@ -2991,8 +2991,7 @@
 		}
 
 		.gallery .image {
-			background: #000;
-			background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+			background:rgba(0, 0, 0, 0.5);
 			padding: 3rem;
 		}
 
@@ -3888,3 +3887,65 @@
     font-weight:600
   }
 }
+/*slide in*/
+.wrap {
+    position: relative;
+	overflow: hidden;
+    width: 100%;
+    height: 500px; 
+	border: 1px solid black;
+	border-radius: 20%;
+	font-weight:600;
+	font-size: 1.7rem;
+}
+#subimg {
+	position:absolute; 
+	width:100%; 
+	height:100%;
+}
+
+#slide1 {
+    position: absolute;
+    left: -700px;
+    width: 700px;
+    height: 500px;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	padding: 5rem 5rem 5rem 5rem;
+	color: white;
+    transition: 1s;
+}
+
+#slide2 {
+    position: absolute;
+    right: -700px;
+    width: 700px;
+	height: 500px;
+	text-align: center;
+	padding: 5rem 5rem 5rem 5rem;
+	background:rgba(0, 0, 0, 0.7);
+	color: white;
+    transition: 1s;
+}
+
+.wrap:hover #slide1 {
+    transition: 1s;
+    left: 0;
+}
+.wrap:hover #slide2 {
+    transition: 1s;
+    right: 0;
+}
+.wrap:hover{
+	transform: scale(1.05);
+	overflow: hidden;
+}
+/*.wrap.style1:hover {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	animation-name: example;
+	animation-duration: 0.25s;
+	border-left: 8px solid red;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+/*slide in end*/
