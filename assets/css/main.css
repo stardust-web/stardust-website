@@ -2094,7 +2094,8 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 95%;
+				height:250px;
 			}
 
 		.image.main {
@@ -3810,18 +3811,18 @@
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:0;
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    text-align:center;
   }
 }
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
 }
 .social-icons li
 {
