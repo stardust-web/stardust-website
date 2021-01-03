@@ -2998,6 +2998,7 @@
 
 			.gallery .image.fit {
 				margin: 0;
+				border:1px solid;
 			}
 
 		@media screen and (max-width: 980px) {
