@@ -3896,12 +3896,12 @@
     position: relative;
 	overflow: hidden;
 	margin: auto;
-    width: 70%;
-    height: 500px; 
+    width: 60%;
+    height: 400px; 
 	border: 1px solid black;
 	border-radius: 20%;
 	font-weight:600;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 #subimg {
 	position:absolute; 
@@ -3931,6 +3931,13 @@
 	background:rgba(0, 0, 0, 0.7);
 	color: white;
     transition: 1s;
+}
+#subp{
+	text-align: center;
+	font-weight: 1000;
+	color: white;
+	font-size: 1.8rem;
+	text-shadow: 2px 2px rgb(65, 58, 58);
 }
 
 .wrap:hover #slide1 {
