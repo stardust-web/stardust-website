@@ -2091,11 +2091,13 @@
 			display: block;
 			margin: 0 0 2rem 0;
 			width: 100%;
+			text-align: center;
 		}
 
 			.image.fit img {
-				width: 95%;
-				height:250px;
+				width: 60%;
+				margin-left: 20%;
+				height: 250px;
 			}
 
 		.image.main {
@@ -2993,12 +2995,12 @@
 
 		.gallery .image {
 			background:rgba(0, 0, 0, 0.5);
-			padding: 3rem;
+			padding: 2.5rem;
 		}
 
 			.gallery .image.fit {
 				margin: 0;
-				border:1px solid;
+				border:0.5px solid rgb(59, 58, 58);
 			}
 
 		@media screen and (max-width: 980px) {
