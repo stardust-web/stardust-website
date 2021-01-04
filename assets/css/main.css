@@ -3919,7 +3919,7 @@
 #slide1 {
     position: absolute;
     left: -700px;
-    width: 100%;
+    width: 60%;
     height: 550px;
 	background: rgba(0, 0, 0, 0.7);
 	text-align: center;
@@ -3932,7 +3932,7 @@
 #slide2 {
     position: absolute;
     right: -700px;
-    width: 100%;
+    width: 60%;
 	height: 550px;
 	text-align: center;
 	padding: 5rem 2rem 2rem 2rem;
@@ -3943,8 +3943,8 @@
 }
 #subp{
 	text-align: center;
-	/* font-weight: 1000;
-	color: white; */
+	/* font-weight: 1000;*/
+	color: white; 
 	font-size: 1.8rem;
 	text-shadow: 2px 2px rgb(65, 58, 58);
 }
