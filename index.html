@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   </head>
   <body>
     <!-- Header -->
@@ -161,7 +162,7 @@
           </p>
           <h2>Morbi maximus justo</h2>
         </header>-->
-        <div class="gallery">
+        <div class="gallery" data-aos="zoom-in-right">
           <div>
             <div class="image fit">
               <!--<a href="#"><img src="images/pic01.jpg" alt="" /></a>-->
@@ -260,6 +261,10 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     
   </body>
 </html>
