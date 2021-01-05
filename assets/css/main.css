@@ -3910,6 +3910,10 @@
     font-weight:600
   }
 }
+h2 a:hover{
+	text-decoration: underline;
+	transform: scale(1.5);
+}
 /*subsytem slide in*/
 .wrap {
     position: relative;
