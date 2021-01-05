@@ -2982,9 +2982,9 @@
 			padding-top: 0;
 		}
 
-		.gallery > :nth-last-child(-n + 2) {
-			/* padding-bottom: 0; */
-		}
+		/* .gallery > :nth-last-child(-n + 2) {
+			padding-bottom: 0;
+		} */
 
 		.gallery > :nth-child(2n + 1) {
 			padding-left: 0;
