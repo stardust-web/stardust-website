@@ -3878,6 +3878,10 @@
 {
   background-color:#00aced
 }
+.social-icons a.mail:hover
+{
+  background-color:#000;
+}
 .social-icons a.linkedin:hover
 {
   background-color:#007bb6
