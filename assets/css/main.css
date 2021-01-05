@@ -3893,6 +3893,14 @@
 {
   background-color:#ea4c89
 }
+.image.fit a:link{
+	color: white;
+	text-decoration: none;
+}
+.image.fit a:hover{
+	color: white;
+	text-decoration: underline;
+}
 @media (max-width:767px)
 {
   .social-icons li.title
