@@ -2064,6 +2064,9 @@
 		display: inline-block;
 		position: relative;
 	}
+	img{
+		border-radius: 10px;
+	}
 
 		.image img {
 			border-radius: 2px;
