@@ -4024,7 +4024,7 @@ h2 a:hover{
   }
   
   .flip-card-back {
-	background-color: #2980b9;
+	background-color: #0d0d0e !important;
 	color: white;
 	transform: rotateY(180deg);
   }
