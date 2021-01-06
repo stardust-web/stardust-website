@@ -3678,6 +3678,23 @@
 
 			.banner > article h2 {
 				font-size: 4em;
+				margin-bottom: 5rem;
+			}
+
+		}
+		@media screen and (max-width: 736px) {
+			.banner > article p {
+				margin-bottom: 0.8rem;
+				margin-top: 5rem;
+			}
+			.banner > article h2 {
+				font-size: 3em;
+			}
+			.banner > .indicators li {
+				margin-top: 4em;
+			}
+			.wrapper.style3 p {
+				font-size: 0.8rem;
 			}
 
 		}
