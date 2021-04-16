@@ -3810,7 +3810,7 @@ header p {
 /* Header */
 
 body.subpage {
-  padding-top: 3.25em;
+ /* padding-top: 3.25em;*/
 }
 
 @-moz-keyframes reveal-header {
@@ -3862,7 +3862,7 @@ body.subpage {
 }
 
 #header {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   color: #a6a6a6;
   cursor: default;
   height: 3.25em;
@@ -3990,7 +3990,7 @@ body.subpage {
 
 @media screen and (max-width: 980px) {
   body.subpage {
-    padding-top: 44px;
+    /*padding-top: 44px;*/
   }
 
   #header {
