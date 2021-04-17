@@ -2552,6 +2552,7 @@ hr {
   margin: 0 0 0.25rem 0;
   padding: 0 0 0.75rem 0;
   letter-spacing: 0.25rem;
+  
 }
 
 .box header p:after {
@@ -2821,6 +2822,9 @@ img {
   width: 60%;
   margin-left: 20%;
   height: 250px;
+}
+.image.fit p {
+  color: whitesmoke;
 }
 
 .image.main {
@@ -3809,9 +3813,9 @@ header p {
 
 /* Header */
 
-body.subpage {
-  /* padding-top: 3.25em;*/
-}
+/*body.subpage {
+   padding-top: 3.25em;
+}*/
 
 @-moz-keyframes reveal-header {
   0% {
@@ -3989,9 +3993,9 @@ body.subpage {
 }
 
 @media screen and (max-width: 980px) {
-  body.subpage {
-    /*padding-top: 44px;*/
-  }
+  /*body.subpage {
+    padding-top: 44px;
+  }*/
 
   #header {
     height: 44px;
@@ -4096,8 +4100,7 @@ body.subpage {
   right: 0;
   text-align: right;
   top: 0;
-  vertical-align: middle;
-  width: 7rem;
+  /*vertical-align: middle;*/
 }
 
 #menu .close:before {
@@ -4707,7 +4710,7 @@ h2 a:hover {
 .flip-card {
   background-color: transparent;
   width: 400px;
-  height: 450px;
+  height: 480px;
   perspective: 1000px;
 }
 
@@ -4721,9 +4724,14 @@ h2 a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card:hover .flip-card-inner {
+
+/*.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+}*/
+
+/*.flip-card:hover {
+  color: black;
+}*/
 
 .flip-card-front,
 .flip-card-back {
