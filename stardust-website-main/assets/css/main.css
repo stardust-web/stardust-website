@@ -3288,11 +3288,12 @@ header p {
   overflow: hidden;
 }
 
-.wrapper.style2 input,
+
+/*.wrapper.style2 input,
 .wrapper.style2 select,
 .wrapper.style2 textarea {
   color: #000;
-}
+}*/
 
 .wrapper.style2 strong,
 .wrapper.style2 b {
@@ -3711,14 +3712,17 @@ header p {
   -ms-flex-grow: 0;
   flex-grow: 0;
 }
+.gallery.team > *{
+  width:32% !important;
+}
 
 .gallery > * {
   width: 50%;
 }
 
 .gallery > * {
-  padding: 2rem;
-  width: calc(50% + 2rem);
+  padding: 0.5rem;
+  width: calc(50% + 0.5rem);
 }
 
 .gallery > :nth-child(n) {
@@ -3746,11 +3750,19 @@ header p {
   background: rgba(0, 0, 0, 0.5);
   padding: 2.5rem;
 }
-
+.image.fit.team img{
+  width: 90%;
+  margin-left: 7%;
+  height: 260px;
+}
 .gallery .image.fit {
   margin: 0;
   border: 0.5px solid rgb(41, 40, 40);
 }
+.image.fit.team{
+  padding: 1rem 1rem 1rem 1rem !important;
+}
+
 
 @media screen and (max-width: 980px) {
   .gallery > * {
@@ -4574,8 +4586,8 @@ body.is-mobile .banner > article {
   font-size: 13px;
 }
 .social-icons a {
-  background-color: #eceeef;
-  color: #818a91;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f9fbfc;
   font-size: 16px;
   display: inline-block;
   line-height: 44px;
@@ -4616,11 +4628,11 @@ body.is-mobile .banner > article {
   background-color: #ea4c89;
 }
 .image.fit a:link {
-  color: grey;
+  color: whitesmoke;
   text-decoration: none;
 }
 .image.fit a:hover {
-  color: white;
+  color: grey;
   text-decoration: underline;
 }
 @media (max-width: 767px) {
@@ -4706,6 +4718,14 @@ h2 a:hover {
   overflow: hidden;
 }
 /*slide in end*/
+
+.hide{
+  display: none;
+}
+/* hover effect for team cards to be done
+.non-hide:hover + .hide{
+  display: block;
+}*/
 
 .flip-card {
   background-color: transparent;
