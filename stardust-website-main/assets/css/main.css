@@ -4807,6 +4807,13 @@ h2 a:hover {
   transition: max-height 0.2s ease-out;
 }
 
+.panel img{
+  width: 20rem;
+}
+.panel h4{
+  text-align: right !important;
+}
+
 *, ::after, ::before {
   box-sizing: border-box;
 }
