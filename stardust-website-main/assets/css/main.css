@@ -2700,7 +2700,7 @@ input[type="button"],
 button,
 .button {
   background-color: #f2f2f2;
-  color: #000 !important;
+  color: #000 ;
 }
 
 input[type="submit"]:hover,
@@ -3749,7 +3749,7 @@ header p {
 }
 
 .gallery .image {
-  background: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
   padding: 2.5rem;
 }
 .image.fit.team img{
@@ -3759,7 +3759,8 @@ header p {
 }
 .gallery .image.fit {
   margin: 0;
-  border: 0.5px solid rgb(41, 40, 40);
+  /*border: 0.5px solid rgb(41, 40, 40);*/
+
 }
 .image.fit.team{
   padding: 1rem 1rem 1rem 1rem !important;
@@ -4779,20 +4780,22 @@ h2 a:hover {
   color: #000;
 }*/
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   cursor: pointer;
-  padding: 8px;
+  padding: 5px;
   width: 100%;
   border: none;
   text-align: center;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  border-color: #fff ;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background: linear-gradient(to right,#515152,#0c0c0c);
+ 
 }
 
 .panel {
@@ -4814,7 +4817,7 @@ h2 a:hover {
 }
 
 .panel__wrapper-icon .panel__head {
-  background: linear-gradient(to right,#2775ff,#7202bb);
+  background: linear-gradient(to right,#515152,#0c0c0c);
   padding: 24px 40px;
   box-shadow: 0 6px 30px 0 rgba(0,0,0,.12);
   color: rgba(255,255,255,.9);
