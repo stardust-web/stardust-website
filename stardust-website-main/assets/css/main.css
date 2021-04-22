@@ -4722,10 +4722,10 @@ h2 a:hover {
 .hide{
   display: none;
 }
-/* hover effect for team cards to be done
-.non-hide:hover + .hide{
+/* hover effect for team cards to be done*/
+.image.image.fit.team:hover  .hide{
   display: block;
-}*/
+}
 
 .flip-card {
   background-color: transparent;
