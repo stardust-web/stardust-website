@@ -4543,13 +4543,18 @@ body.is-mobile .banner > article {
 .footer-links.inline li {
   display: inline-block;
 }
-.site-footer .social-icons {
+/* .site-footer .social-icons {
+  text-align: right;
+} */
+
+.site-footer{
   text-align: right;
 }
 .site-footer .social-icons a {
   width: 40px;
   height: 40px;
   line-height: 40px;
+  margin-top: 10px;
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
@@ -4597,7 +4602,7 @@ body.is-mobile .banner > article {
   width: 44px;
   height: 44px;
   text-align: center;
-  margin-right: 8px;
+  /*margin-right: 8px;*/
   border-radius: 100%;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -5023,4 +5028,102 @@ h2 a:hover {
   right: 30px;
   border: none;
   outline: none;
+}
+
+/*added this class to keep the paragraph to limited width which is present at the footer section of The Team page*/
+.align-footer{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*not in use*/
+/* .social-icons-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/*research section in acheivements page*/
+.header h2{
+  font-size: 3.3rem;
+}
+.header hr{
+  height: 1px;
+  width: 87%;
+  border-bottom-style: solid;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);  
+  margin-bottom: 20px;
+}
+
+
+.research-dp{
+  background-color: black;
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  color: white;
+  height: 3.5rem;
+  width: 75%;
+    
+}
+.research-dp:hover{
+  color: black;
+  background-color: cyan;
+}
+
+.dropdown{
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+.dropdown .btn{
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+
+/*accordian research section*/
+
+.research-accord
+{
+  padding:0;
+  width: 85%;
+  margin: 15px auto;
+  color: black;
+}
+
+.accordian-body{  
+  padding: 10px 20px;
+}
+
+.accordion-header button{
+  font-weight: bold;
+  color: black;  
+  background-color: rgba(240, 240, 240, 0.563);  
+}
+
+
+.papers-list{
+  text-align: center;  
+}
+
+.acd-body{
+  background-color: rgba(0, 0, 0, 0.3);  
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin: 10px auto;
+}
+
+/*noit in use*/
+/* 
+.social-media div{
+  flex:1;
+  padding: 0 5px;  
+} */
+
+.bihar{
+  
 }
